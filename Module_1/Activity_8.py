@@ -13,3 +13,15 @@ if (name == 'Alex' or name == 'John') and age >= 2:
     print('Hello! welcome')
 else:
     print('Good bye!')
+
+#actvity 2
+
+print('Enter a Number (Numerator):')
+numn = int(input())
+print('Enter a number (denominator)')
+numd = int(input())
+
+if numn%numd==0:
+    print('\n' + str(numn)+ ' is divisible by ' +str(numd))
+else:
+    print('\n' + str(numn)+ ' is divisible by ' + str(numd))
