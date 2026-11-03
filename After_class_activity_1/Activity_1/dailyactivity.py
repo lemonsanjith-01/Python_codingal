@@ -12,5 +12,4 @@ awnser = input('is there free time after homework (yes/no)')
 if awnser == 'yes':
     print('reminder to pick a hobby')
 else:
-print
-print(homeworktime, plan, awnser)
+    print(homeworktime, plan, awnser)
