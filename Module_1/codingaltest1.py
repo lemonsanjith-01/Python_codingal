@@ -4,6 +4,7 @@ lives = 5
 guess = 9
 while lives > 0 and guess != secret_number:
     guess = int(input('Guess my number!: '))
+    print('Lives left:', lives)
     if guess >= 18 and guess <= 20:
         print('HOT!!!')
     elif guess <= 18 and guess >= 10:
